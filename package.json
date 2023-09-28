@@ -11,9 +11,9 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@libsql/client": "^0.3.5-pre.11",
-    "@prisma/adapter-libsql": "^0.2.0",
-    "@prisma/client": "^5.4.0-integration-libsql-adapter.5",
+    "@libsql/client": "^0.3.5",
+    "@prisma/adapter-libsql": "^0.4.1",
+    "@prisma/client": "5.4.0-dev.61",
     "@remix-run/css-bundle": "^2.0.1",
     "@remix-run/node": "^2.0.1",
     "@remix-run/react": "^2.0.1",
@@ -34,7 +34,7 @@
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.38.0",
-    "prisma": "^5.3.1",
+    "prisma": "5.4.0-dev.61",
     "tsx": "^3.13.0",
     "typescript": "^5.1.6"
   },
